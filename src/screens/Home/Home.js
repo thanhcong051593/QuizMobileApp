@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Button, Image } from 'react-native';
+import { View, Image } from 'react-native';
+import { Button } from 'react-native-elements';
 import {styles} from './HomeStyleSheet';
 
 
@@ -14,6 +15,8 @@ class HomeScreen extends React.Component {
           <Button
             title="Let's quiz!"
             onPress={() => this.props.navigation.navigate('Quiz')}
+            buttonStyle={styles.buttonStyle}
+            titleStyle={styles.titleStyle}
           />
         </View>
       </View>

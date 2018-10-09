@@ -12,6 +12,17 @@ export const styles = StyleSheet.create({
     },
     btn: {
         marginTop: 70,
+        borderRadius: 10
     },
+    buttonStyle: {
+        borderRadius: 5,
+        width: 300,
+        height: 45,
+        borderColor: "transparent",
+        backgroundColor: "rgba(92, 99,216, 1)"
+    },
+    titleStyle: {
+        fontWeight: "700"
+    }
 });
 
